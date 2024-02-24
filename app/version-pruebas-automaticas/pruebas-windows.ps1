@@ -2,7 +2,7 @@
 # Set-ExecutionPolicy RemoteSigned
 
 for ($j = 1; $j -le 10; $j++) {
-    foreach ($i in 10, 100, 200, 400, 600) {
+    foreach ($i in 10, 100, 200, 400, 600, 800) {
         .\a.exe $i | Out-File -Append -FilePath resultados-windows.txt
     }
 }

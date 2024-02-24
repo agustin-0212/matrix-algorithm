@@ -76,11 +76,11 @@ int main(int argc, char *argv[])
     }
 
     // Imprimir las matrices originales
-    printf("Matriz A:\n");
-    imprimirMatriz(matrizA, n);
+    // printf("Matriz A:\n");
+    // imprimirMatriz(matrizA, n);
 
-    printf("\nMatriz B:\n");
-    imprimirMatriz(matrizB, n);
+    // printf("\nMatriz B:\n");
+    // imprimirMatriz(matrizB, n);
 
     // Medir el tiempo antes de ejecutar la función de multiplicación
     clock_t inicio = clock();
@@ -96,11 +96,11 @@ int main(int argc, char *argv[])
     tiempo_transcurrido = tiempo_transcurrido * 1000; // convertir a milisegundos
 
     // Imprimir la matriz resultante
-    printf("\nMatriz Resultado:\n");
-    imprimirMatriz(resultado, n);
+    // printf("\nMatriz Resultado:\n");
+    // imprimirMatriz(resultado, n);
 
     // Imprimir el tiempo de ejecución
-    printf("\nTiempo de ejecucion: %.6f milisegundos\n", tiempo_transcurrido);
+    printf("\nTiempo de ejecucion: %.6f milisegundos para N=%i\n", tiempo_transcurrido, n);
 
     // Liberar la memoria
     for (int i = 0; i < n; i++)
