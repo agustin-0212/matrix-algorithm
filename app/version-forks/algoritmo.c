@@ -4,6 +4,7 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <unistd.h>
+#include <sys/mman.h>
 
 // Función para generar números aleatorios entre 1 y 5
 int generarNumeroAleatorio()
@@ -53,25 +54,22 @@ int main(int argc, char *argv[])
     int n = atoi(argv[1]);
     int numForks = atoi(argv[2]);
 
-    // Inicializar la semilla para generar números aleatorios
-    srand(time(NULL));
+    // Calcular el tamaño necesario para la memoria compartida
+    size_t size = n * n * sizeof(int);
 
-    // Crear matrices y reservar memoria dinámica
+    // Crear matrices y asignar memoria compartida
     int **matrizA, **matrizB, **resultado;
-    matrizA = (int **)malloc(n * sizeof(int *));
-    matrizB = (int **)malloc(n * sizeof(int *));
-    resultado = (int **)malloc(n * sizeof(int *));
-
-    for (int i = 0; i < n; i++)
-    {
-        matrizA[i] = (int *)malloc(n * sizeof(int));
-        matrizB[i] = (int *)malloc(n * sizeof(int));
-        resultado[i] = (int *)malloc(n * sizeof(int));
-    }
+    matrizA = (int **)mmap(NULL, size, PROT_READ | PROT_WRITE, MAP_SHARED | MAP_ANONYMOUS, -1, 0);
+    matrizB = (int **)mmap(NULL, size, PROT_READ | PROT_WRITE, MAP_SHARED | MAP_ANONYMOUS, -1, 0);
+    resultado = (int **)mmap(NULL, size, PROT_READ | PROT_WRITE, MAP_SHARED | MAP_ANONYMOUS, -1, 0);
 
     // Inicializar las matrices con valores aleatorios
     for (int i = 0; i < n; i++)
     {
+        matrizA[i] = (int *)mmap(NULL, n * sizeof(int), PROT_READ | PROT_WRITE, MAP_SHARED | MAP_ANONYMOUS, -1, 0);
+        matrizB[i] = (int *)mmap(NULL, n * sizeof(int), PROT_READ | PROT_WRITE, MAP_SHARED | MAP_ANONYMOUS, -1, 0);
+        resultado[i] = (int *)mmap(NULL, n * sizeof(int), PROT_READ | PROT_WRITE, MAP_SHARED | MAP_ANONYMOUS, -1, 0);
+
         for (int j = 0; j < n; j++)
         {
             matrizA[i][j] = generarNumeroAleatorio();
@@ -142,16 +140,16 @@ int main(int argc, char *argv[])
     // Imprimir el tiempo de ejecución
     printf("\nTiempo de ejecucion: %.6f milisegundos\n", tiempo_transcurrido);
 
-    // Liberar la memoria
+    // Liberar la memoria compartida
     for (int i = 0; i < n; i++)
     {
-        free(matrizA[i]);
-        free(matrizB[i]);
-        free(resultado[i]);
+        munmap(matrizA[i], n * sizeof(int));
+        munmap(matrizB[i], n * sizeof(int));
+        munmap(resultado[i], n * sizeof(int));
     }
-    free(matrizA);
-    free(matrizB);
-    free(resultado);
+    munmap(matrizA, size);
+    munmap(matrizB, size);
+    munmap(resultado, size);
 
     return 0;
 }
