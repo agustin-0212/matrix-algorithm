@@ -1,0 +1,159 @@
+Tiempo de ejecucion: 0.007000 milisegundos para N=10
+
+Tiempo de ejecucion: 4.246000 milisegundos para N=100
+
+Tiempo de ejecucion: 40.425000 milisegundos para N=200
+
+Tiempo de ejecucion: 645.199000 milisegundos para N=400
+
+Tiempo de ejecucion: 2265.767000 milisegundos para N=600
+
+Tiempo de ejecucion: 6064.384000 milisegundos para N=800
+
+Tiempo de ejecucion: 22065.342000 milisegundos para N=1000
+
+Tiempo de ejecucion: 226088.340000 milisegundos para N=2000
+
+Tiempo de ejecucion: 0.008000 milisegundos para N=10
+
+Tiempo de ejecucion: 5.118000 milisegundos para N=100
+
+Tiempo de ejecucion: 40.048000 milisegundos para N=200
+
+Tiempo de ejecucion: 433.580000 milisegundos para N=400
+
+Tiempo de ejecucion: 2305.103000 milisegundos para N=600
+
+Tiempo de ejecucion: 6197.518000 milisegundos para N=800
+
+Tiempo de ejecucion: 22311.436000 milisegundos para N=1000
+
+Tiempo de ejecucion: 235054.776000 milisegundos para N=2000
+
+Tiempo de ejecucion: 0.005000 milisegundos para N=10
+
+Tiempo de ejecucion: 4.318000 milisegundos para N=100
+
+Tiempo de ejecucion: 33.100000 milisegundos para N=200
+
+Tiempo de ejecucion: 479.604000 milisegundos para N=400
+
+Tiempo de ejecucion: 1783.483000 milisegundos para N=600
+
+Tiempo de ejecucion: 4762.333000 milisegundos para N=800
+
+Tiempo de ejecucion: 20110.961000 milisegundos para N=1000
+
+Tiempo de ejecucion: 227228.395000 milisegundos para N=2000
+
+Tiempo de ejecucion: 0.008000 milisegundos para N=10
+
+Tiempo de ejecucion: 4.180000 milisegundos para N=100
+
+Tiempo de ejecucion: 32.867000 milisegundos para N=200
+
+Tiempo de ejecucion: 418.021000 milisegundos para N=400
+
+Tiempo de ejecucion: 1650.620000 milisegundos para N=600
+
+Tiempo de ejecucion: 5316.111000 milisegundos para N=800
+
+Tiempo de ejecucion: 19805.657000 milisegundos para N=1000
+
+Tiempo de ejecucion: 228640.385000 milisegundos para N=2000
+
+Tiempo de ejecucion: 0.007000 milisegundos para N=10
+
+Tiempo de ejecucion: 4.414000 milisegundos para N=100
+
+Tiempo de ejecucion: 34.718000 milisegundos para N=200
+
+Tiempo de ejecucion: 553.963000 milisegundos para N=400
+
+Tiempo de ejecucion: 2003.429000 milisegundos para N=600
+
+Tiempo de ejecucion: 4864.836000 milisegundos para N=800
+
+Tiempo de ejecucion: 24088.772000 milisegundos para N=1000
+
+Tiempo de ejecucion: 226636.896000 milisegundos para N=2000
+
+Tiempo de ejecucion: 0.007000 milisegundos para N=10
+
+Tiempo de ejecucion: 4.589000 milisegundos para N=100
+
+Tiempo de ejecucion: 31.803000 milisegundos para N=200
+
+Tiempo de ejecucion: 612.704000 milisegundos para N=400
+
+Tiempo de ejecucion: 2018.607000 milisegundos para N=600
+
+Tiempo de ejecucion: 4766.117000 milisegundos para N=800
+
+Tiempo de ejecucion: 20087.383000 milisegundos para N=1000
+
+Tiempo de ejecucion: 229335.066000 milisegundos para N=2000
+
+Tiempo de ejecucion: 0.007000 milisegundos para N=10
+
+Tiempo de ejecucion: 5.199000 milisegundos para N=100
+
+Tiempo de ejecucion: 32.249000 milisegundos para N=200
+
+Tiempo de ejecucion: 390.162000 milisegundos para N=400
+
+Tiempo de ejecucion: 1707.784000 milisegundos para N=600
+
+Tiempo de ejecucion: 5127.352000 milisegundos para N=800
+
+Tiempo de ejecucion: 21042.696000 milisegundos para N=1000
+
+Tiempo de ejecucion: 228050.477000 milisegundos para N=2000
+
+Tiempo de ejecucion: 0.008000 milisegundos para N=10
+
+Tiempo de ejecucion: 5.139000 milisegundos para N=100
+
+Tiempo de ejecucion: 32.361000 milisegundos para N=200
+
+Tiempo de ejecucion: 459.402000 milisegundos para N=400
+
+Tiempo de ejecucion: 2527.695000 milisegundos para N=600
+
+Tiempo de ejecucion: 6719.881000 milisegundos para N=800
+
+Tiempo de ejecucion: 22312.904000 milisegundos para N=1000
+
+Tiempo de ejecucion: 227208.473000 milisegundos para N=2000
+
+Tiempo de ejecucion: 0.008000 milisegundos para N=10
+
+Tiempo de ejecucion: 4.886000 milisegundos para N=100
+
+Tiempo de ejecucion: 32.141000 milisegundos para N=200
+
+Tiempo de ejecucion: 389.284000 milisegundos para N=400
+
+Tiempo de ejecucion: 1673.846000 milisegundos para N=600
+
+Tiempo de ejecucion: 5216.233000 milisegundos para N=800
+
+Tiempo de ejecucion: 21184.174000 milisegundos para N=1000
+
+Tiempo de ejecucion: 229110.010000 milisegundos para N=2000
+
+Tiempo de ejecucion: 0.007000 milisegundos para N=10
+
+Tiempo de ejecucion: 5.577000 milisegundos para N=100
+
+Tiempo de ejecucion: 36.245000 milisegundos para N=200
+
+Tiempo de ejecucion: 395.392000 milisegundos para N=400
+
+Tiempo de ejecucion: 1639.658000 milisegundos para N=600
+
+Tiempo de ejecucion: 4891.324000 milisegundos para N=800
+
+Tiempo de ejecucion: 22394.450000 milisegundos para N=1000
+
+Tiempo de ejecucion: 228289.662000 milisegundos para N=2000

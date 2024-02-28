@@ -138,7 +138,7 @@ int main(int argc, char *argv[])
     // imprimirMatriz(resultado, n);
 
     // Imprimir el tiempo de ejecución
-    printf("\nTiempo de ejecucion: %.6f milisegundos\n", tiempo_transcurrido);
+    printf("\nTiempo de ejecucion: %.6f milisegundos para N=%i P=%i\n", tiempo_transcurrido, n, numForks);
 
     // Liberar la memoria compartida
     for (int i = 0; i < n; i++)

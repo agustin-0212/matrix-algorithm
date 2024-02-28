@@ -1,0 +1,480 @@
+
+Tiempo de ejecucion: 0.489000 milisegundos para N=10 P=2
+
+Tiempo de ejecucion: 0.660000 milisegundos para N=10 P=3
+
+Tiempo de ejecucion: 0.969000 milisegundos para N=10 P=4
+
+Tiempo de ejecucion: 0.476000 milisegundos para N=100 P=2
+
+Tiempo de ejecucion: 0.801000 milisegundos para N=100 P=3
+
+Tiempo de ejecucion: 0.887000 milisegundos para N=100 P=4
+
+Tiempo de ejecucion: 0.550000 milisegundos para N=200 P=2
+
+Tiempo de ejecucion: 0.967000 milisegundos para N=200 P=3
+
+Tiempo de ejecucion: 1.047000 milisegundos para N=200 P=4
+
+Tiempo de ejecucion: 0.777000 milisegundos para N=400 P=2
+
+Tiempo de ejecucion: 0.928000 milisegundos para N=400 P=3
+
+Tiempo de ejecucion: 1.142000 milisegundos para N=400 P=4
+
+Tiempo de ejecucion: 0.575000 milisegundos para N=600 P=2
+
+Tiempo de ejecucion: 0.891000 milisegundos para N=600 P=3
+
+Tiempo de ejecucion: 1.219000 milisegundos para N=600 P=4
+
+Tiempo de ejecucion: 0.725000 milisegundos para N=800 P=2
+
+Tiempo de ejecucion: 0.844000 milisegundos para N=800 P=3
+
+Tiempo de ejecucion: 1.237000 milisegundos para N=800 P=4
+
+Tiempo de ejecucion: 0.820000 milisegundos para N=1000 P=2
+
+Tiempo de ejecucion: 0.967000 milisegundos para N=1000 P=3
+
+Tiempo de ejecucion: 1.203000 milisegundos para N=1000 P=4
+
+Tiempo de ejecucion: 1.175000 milisegundos para N=2000 P=2
+
+Tiempo de ejecucion: 1.542000 milisegundos para N=2000 P=3
+
+Tiempo de ejecucion: 1.681000 milisegundos para N=2000 P=4
+
+Tiempo de ejecucion: 0.443000 milisegundos para N=10 P=2
+
+Tiempo de ejecucion: 0.555000 milisegundos para N=10 P=3
+
+Tiempo de ejecucion: 0.847000 milisegundos para N=10 P=4
+
+Tiempo de ejecucion: 0.416000 milisegundos para N=100 P=2
+
+Tiempo de ejecucion: 0.590000 milisegundos para N=100 P=3
+
+Tiempo de ejecucion: 0.849000 milisegundos para N=100 P=4
+
+Tiempo de ejecucion: 0.457000 milisegundos para N=200 P=2
+
+Tiempo de ejecucion: 0.608000 milisegundos para N=200 P=3
+
+Tiempo de ejecucion: 0.906000 milisegundos para N=200 P=4
+
+Tiempo de ejecucion: 0.474000 milisegundos para N=400 P=2
+
+Tiempo de ejecucion: 0.713000 milisegundos para N=400 P=3
+
+Tiempo de ejecucion: 0.947000 milisegundos para N=400 P=4
+
+Tiempo de ejecucion: 0.517000 milisegundos para N=600 P=2
+
+Tiempo de ejecucion: 0.799000 milisegundos para N=600 P=3
+
+Tiempo de ejecucion: 1.092000 milisegundos para N=600 P=4
+
+Tiempo de ejecucion: 0.555000 milisegundos para N=800 P=2
+
+Tiempo de ejecucion: 0.745000 milisegundos para N=800 P=3
+
+Tiempo de ejecucion: 0.981000 milisegundos para N=800 P=4
+
+Tiempo de ejecucion: 0.822000 milisegundos para N=1000 P=2
+
+Tiempo de ejecucion: 0.821000 milisegundos para N=1000 P=3
+
+Tiempo de ejecucion: 1.211000 milisegundos para N=1000 P=4
+
+Tiempo de ejecucion: 1.122000 milisegundos para N=2000 P=2
+
+Tiempo de ejecucion: 1.514000 milisegundos para N=2000 P=3
+
+Tiempo de ejecucion: 1.986000 milisegundos para N=2000 P=4
+
+Tiempo de ejecucion: 0.403000 milisegundos para N=10 P=2
+
+Tiempo de ejecucion: 0.666000 milisegundos para N=10 P=3
+
+Tiempo de ejecucion: 0.811000 milisegundos para N=10 P=4
+
+Tiempo de ejecucion: 0.429000 milisegundos para N=100 P=2
+
+Tiempo de ejecucion: 0.625000 milisegundos para N=100 P=3
+
+Tiempo de ejecucion: 0.930000 milisegundos para N=100 P=4
+
+Tiempo de ejecucion: 0.426000 milisegundos para N=200 P=2
+
+Tiempo de ejecucion: 0.716000 milisegundos para N=200 P=3
+
+Tiempo de ejecucion: 0.873000 milisegundos para N=200 P=4
+
+Tiempo de ejecucion: 0.453000 milisegundos para N=400 P=2
+
+Tiempo de ejecucion: 0.723000 milisegundos para N=400 P=3
+
+Tiempo de ejecucion: 0.957000 milisegundos para N=400 P=4
+
+Tiempo de ejecucion: 0.592000 milisegundos para N=600 P=2
+
+Tiempo de ejecucion: 0.839000 milisegundos para N=600 P=3
+
+Tiempo de ejecucion: 1.029000 milisegundos para N=600 P=4
+
+Tiempo de ejecucion: 0.500000 milisegundos para N=800 P=2
+
+Tiempo de ejecucion: 0.872000 milisegundos para N=800 P=3
+
+Tiempo de ejecucion: 1.142000 milisegundos para N=800 P=4
+
+Tiempo de ejecucion: 0.568000 milisegundos para N=1000 P=2
+
+Tiempo de ejecucion: 0.876000 milisegundos para N=1000 P=3
+
+Tiempo de ejecucion: 1.139000 milisegundos para N=1000 P=4
+
+Tiempo de ejecucion: 0.903000 milisegundos para N=2000 P=2
+
+Tiempo de ejecucion: 1.343000 milisegundos para N=2000 P=3
+
+Tiempo de ejecucion: 1.865000 milisegundos para N=2000 P=4
+
+Tiempo de ejecucion: 0.422000 milisegundos para N=10 P=2
+
+Tiempo de ejecucion: 0.756000 milisegundos para N=10 P=3
+
+Tiempo de ejecucion: 0.960000 milisegundos para N=10 P=4
+
+Tiempo de ejecucion: 0.512000 milisegundos para N=100 P=2
+
+Tiempo de ejecucion: 0.661000 milisegundos para N=100 P=3
+
+Tiempo de ejecucion: 0.883000 milisegundos para N=100 P=4
+
+Tiempo de ejecucion: 0.440000 milisegundos para N=200 P=2
+
+Tiempo de ejecucion: 0.671000 milisegundos para N=200 P=3
+
+Tiempo de ejecucion: 0.938000 milisegundos para N=200 P=4
+
+Tiempo de ejecucion: 0.464000 milisegundos para N=400 P=2
+
+Tiempo de ejecucion: 0.729000 milisegundos para N=400 P=3
+
+Tiempo de ejecucion: 0.895000 milisegundos para N=400 P=4
+
+Tiempo de ejecucion: 0.663000 milisegundos para N=600 P=2
+
+Tiempo de ejecucion: 0.881000 milisegundos para N=600 P=3
+
+Tiempo de ejecucion: 1.030000 milisegundos para N=600 P=4
+
+Tiempo de ejecucion: 0.539000 milisegundos para N=800 P=2
+
+Tiempo de ejecucion: 1.009000 milisegundos para N=800 P=3
+
+Tiempo de ejecucion: 1.213000 milisegundos para N=800 P=4
+
+Tiempo de ejecucion: 0.881000 milisegundos para N=1000 P=2
+
+Tiempo de ejecucion: 0.858000 milisegundos para N=1000 P=3
+
+Tiempo de ejecucion: 1.134000 milisegundos para N=1000 P=4
+
+Tiempo de ejecucion: 0.938000 milisegundos para N=2000 P=2
+
+Tiempo de ejecucion: 1.534000 milisegundos para N=2000 P=3
+
+Tiempo de ejecucion: 1.895000 milisegundos para N=2000 P=4
+
+Tiempo de ejecucion: 0.440000 milisegundos para N=10 P=2
+
+Tiempo de ejecucion: 0.683000 milisegundos para N=10 P=3
+
+Tiempo de ejecucion: 0.814000 milisegundos para N=10 P=4
+
+Tiempo de ejecucion: 0.596000 milisegundos para N=100 P=2
+
+Tiempo de ejecucion: 0.683000 milisegundos para N=100 P=3
+
+Tiempo de ejecucion: 0.935000 milisegundos para N=100 P=4
+
+Tiempo de ejecucion: 0.489000 milisegundos para N=200 P=2
+
+Tiempo de ejecucion: 0.892000 milisegundos para N=200 P=3
+
+Tiempo de ejecucion: 0.995000 milisegundos para N=200 P=4
+
+Tiempo de ejecucion: 0.558000 milisegundos para N=400 P=2
+
+Tiempo de ejecucion: 0.764000 milisegundos para N=400 P=3
+
+Tiempo de ejecucion: 0.989000 milisegundos para N=400 P=4
+
+Tiempo de ejecucion: 0.490000 milisegundos para N=600 P=2
+
+Tiempo de ejecucion: 0.892000 milisegundos para N=600 P=3
+
+Tiempo de ejecucion: 1.008000 milisegundos para N=600 P=4
+
+Tiempo de ejecucion: 0.520000 milisegundos para N=800 P=2
+
+Tiempo de ejecucion: 0.811000 milisegundos para N=800 P=3
+
+Tiempo de ejecucion: 1.054000 milisegundos para N=800 P=4
+
+Tiempo de ejecucion: 0.567000 milisegundos para N=1000 P=2
+
+Tiempo de ejecucion: 1.040000 milisegundos para N=1000 P=3
+
+Tiempo de ejecucion: 1.225000 milisegundos para N=1000 P=4
+
+Tiempo de ejecucion: 0.930000 milisegundos para N=2000 P=2
+
+Tiempo de ejecucion: 1.283000 milisegundos para N=2000 P=3
+
+Tiempo de ejecucion: 1.784000 milisegundos para N=2000 P=4
+
+Tiempo de ejecucion: 0.500000 milisegundos para N=10 P=2
+
+Tiempo de ejecucion: 0.793000 milisegundos para N=10 P=3
+
+Tiempo de ejecucion: 0.905000 milisegundos para N=10 P=4
+
+Tiempo de ejecucion: 0.493000 milisegundos para N=100 P=2
+
+Tiempo de ejecucion: 0.709000 milisegundos para N=100 P=3
+
+Tiempo de ejecucion: 1.315000 milisegundos para N=100 P=4
+
+Tiempo de ejecucion: 1.003000 milisegundos para N=200 P=2
+
+Tiempo de ejecucion: 0.771000 milisegundos para N=200 P=3
+
+Tiempo de ejecucion: 0.965000 milisegundos para N=200 P=4
+
+Tiempo de ejecucion: 0.581000 milisegundos para N=400 P=2
+
+Tiempo de ejecucion: 1.014000 milisegundos para N=400 P=3
+
+Tiempo de ejecucion: 0.970000 milisegundos para N=400 P=4
+
+Tiempo de ejecucion: 0.670000 milisegundos para N=600 P=2
+
+Tiempo de ejecucion: 0.834000 milisegundos para N=600 P=3
+
+Tiempo de ejecucion: 1.088000 milisegundos para N=600 P=4
+
+Tiempo de ejecucion: 0.576000 milisegundos para N=800 P=2
+
+Tiempo de ejecucion: 1.040000 milisegundos para N=800 P=3
+
+Tiempo de ejecucion: 1.115000 milisegundos para N=800 P=4
+
+Tiempo de ejecucion: 0.604000 milisegundos para N=1000 P=2
+
+Tiempo de ejecucion: 0.855000 milisegundos para N=1000 P=3
+
+Tiempo de ejecucion: 1.068000 milisegundos para N=1000 P=4
+
+Tiempo de ejecucion: 0.902000 milisegundos para N=2000 P=2
+
+Tiempo de ejecucion: 1.465000 milisegundos para N=2000 P=3
+
+Tiempo de ejecucion: 1.719000 milisegundos para N=2000 P=4
+
+Tiempo de ejecucion: 0.443000 milisegundos para N=10 P=2
+
+Tiempo de ejecucion: 0.689000 milisegundos para N=10 P=3
+
+Tiempo de ejecucion: 0.824000 milisegundos para N=10 P=4
+
+Tiempo de ejecucion: 0.411000 milisegundos para N=100 P=2
+
+Tiempo de ejecucion: 0.662000 milisegundos para N=100 P=3
+
+Tiempo de ejecucion: 0.842000 milisegundos para N=100 P=4
+
+Tiempo de ejecucion: 0.467000 milisegundos para N=200 P=2
+
+Tiempo de ejecucion: 0.683000 milisegundos para N=200 P=3
+
+Tiempo de ejecucion: 1.024000 milisegundos para N=200 P=4
+
+Tiempo de ejecucion: 0.487000 milisegundos para N=400 P=2
+
+Tiempo de ejecucion: 0.741000 milisegundos para N=400 P=3
+
+Tiempo de ejecucion: 0.932000 milisegundos para N=400 P=4
+
+Tiempo de ejecucion: 0.524000 milisegundos para N=600 P=2
+
+Tiempo de ejecucion: 0.951000 milisegundos para N=600 P=3
+
+Tiempo de ejecucion: 1.048000 milisegundos para N=600 P=4
+
+Tiempo de ejecucion: 0.572000 milisegundos para N=800 P=2
+
+Tiempo de ejecucion: 0.825000 milisegundos para N=800 P=3
+
+Tiempo de ejecucion: 1.152000 milisegundos para N=800 P=4
+
+Tiempo de ejecucion: 0.601000 milisegundos para N=1000 P=2
+
+Tiempo de ejecucion: 0.934000 milisegundos para N=1000 P=3
+
+Tiempo de ejecucion: 1.113000 milisegundos para N=1000 P=4
+
+Tiempo de ejecucion: 1.115000 milisegundos para N=2000 P=2
+
+Tiempo de ejecucion: 1.556000 milisegundos para N=2000 P=3
+
+Tiempo de ejecucion: 1.799000 milisegundos para N=2000 P=4
+
+Tiempo de ejecucion: 0.530000 milisegundos para N=10 P=2
+
+Tiempo de ejecucion: 0.669000 milisegundos para N=10 P=3
+
+Tiempo de ejecucion: 0.908000 milisegundos para N=10 P=4
+
+Tiempo de ejecucion: 0.468000 milisegundos para N=100 P=2
+
+Tiempo de ejecucion: 0.771000 milisegundos para N=100 P=3
+
+Tiempo de ejecucion: 0.941000 milisegundos para N=100 P=4
+
+Tiempo de ejecucion: 0.603000 milisegundos para N=200 P=2
+
+Tiempo de ejecucion: 0.745000 milisegundos para N=200 P=3
+
+Tiempo de ejecucion: 0.996000 milisegundos para N=200 P=4
+
+Tiempo de ejecucion: 0.637000 milisegundos para N=400 P=2
+
+Tiempo de ejecucion: 1.055000 milisegundos para N=400 P=3
+
+Tiempo de ejecucion: 1.085000 milisegundos para N=400 P=4
+
+Tiempo de ejecucion: 0.640000 milisegundos para N=600 P=2
+
+Tiempo de ejecucion: 1.009000 milisegundos para N=600 P=3
+
+Tiempo de ejecucion: 1.093000 milisegundos para N=600 P=4
+
+Tiempo de ejecucion: 0.699000 milisegundos para N=800 P=2
+
+Tiempo de ejecucion: 0.882000 milisegundos para N=800 P=3
+
+Tiempo de ejecucion: 1.135000 milisegundos para N=800 P=4
+
+Tiempo de ejecucion: 0.672000 milisegundos para N=1000 P=2
+
+Tiempo de ejecucion: 0.931000 milisegundos para N=1000 P=3
+
+Tiempo de ejecucion: 1.196000 milisegundos para N=1000 P=4
+
+Tiempo de ejecucion: 0.925000 milisegundos para N=2000 P=2
+
+Tiempo de ejecucion: 1.336000 milisegundos para N=2000 P=3
+
+Tiempo de ejecucion: 2.086000 milisegundos para N=2000 P=4
+
+Tiempo de ejecucion: 0.429000 milisegundos para N=10 P=2
+
+Tiempo de ejecucion: 0.569000 milisegundos para N=10 P=3
+
+Tiempo de ejecucion: 0.860000 milisegundos para N=10 P=4
+
+Tiempo de ejecucion: 0.384000 milisegundos para N=100 P=2
+
+Tiempo de ejecucion: 0.658000 milisegundos para N=100 P=3
+
+Tiempo de ejecucion: 0.867000 milisegundos para N=100 P=4
+
+Tiempo de ejecucion: 0.415000 milisegundos para N=200 P=2
+
+Tiempo de ejecucion: 0.685000 milisegundos para N=200 P=3
+
+Tiempo de ejecucion: 0.912000 milisegundos para N=200 P=4
+
+Tiempo de ejecucion: 0.463000 milisegundos para N=400 P=2
+
+Tiempo de ejecucion: 0.689000 milisegundos para N=400 P=3
+
+Tiempo de ejecucion: 0.945000 milisegundos para N=400 P=4
+
+Tiempo de ejecucion: 0.526000 milisegundos para N=600 P=2
+
+Tiempo de ejecucion: 0.744000 milisegundos para N=600 P=3
+
+Tiempo de ejecucion: 1.079000 milisegundos para N=600 P=4
+
+Tiempo de ejecucion: 0.575000 milisegundos para N=800 P=2
+
+Tiempo de ejecucion: 0.865000 milisegundos para N=800 P=3
+
+Tiempo de ejecucion: 1.089000 milisegundos para N=800 P=4
+
+Tiempo de ejecucion: 0.631000 milisegundos para N=1000 P=2
+
+Tiempo de ejecucion: 0.846000 milisegundos para N=1000 P=3
+
+Tiempo de ejecucion: 1.075000 milisegundos para N=1000 P=4
+
+Tiempo de ejecucion: 1.085000 milisegundos para N=2000 P=2
+
+Tiempo de ejecucion: 1.251000 milisegundos para N=2000 P=3
+
+Tiempo de ejecucion: 2.050000 milisegundos para N=2000 P=4
+
+Tiempo de ejecucion: 0.441000 milisegundos para N=10 P=2
+
+Tiempo de ejecucion: 0.636000 milisegundos para N=10 P=3
+
+Tiempo de ejecucion: 0.924000 milisegundos para N=10 P=4
+
+Tiempo de ejecucion: 0.462000 milisegundos para N=100 P=2
+
+Tiempo de ejecucion: 0.696000 milisegundos para N=100 P=3
+
+Tiempo de ejecucion: 0.869000 milisegundos para N=100 P=4
+
+Tiempo de ejecucion: 0.474000 milisegundos para N=200 P=2
+
+Tiempo de ejecucion: 0.675000 milisegundos para N=200 P=3
+
+Tiempo de ejecucion: 0.935000 milisegundos para N=200 P=4
+
+Tiempo de ejecucion: 0.464000 milisegundos para N=400 P=2
+
+Tiempo de ejecucion: 0.721000 milisegundos para N=400 P=3
+
+Tiempo de ejecucion: 1.026000 milisegundos para N=400 P=4
+
+Tiempo de ejecucion: 0.498000 milisegundos para N=600 P=2
+
+Tiempo de ejecucion: 0.923000 milisegundos para N=600 P=3
+
+Tiempo de ejecucion: 1.104000 milisegundos para N=600 P=4
+
+Tiempo de ejecucion: 0.625000 milisegundos para N=800 P=2
+
+Tiempo de ejecucion: 0.851000 milisegundos para N=800 P=3
+
+Tiempo de ejecucion: 0.935000 milisegundos para N=800 P=4
+
+Tiempo de ejecucion: 0.615000 milisegundos para N=1000 P=2
+
+Tiempo de ejecucion: 0.914000 milisegundos para N=1000 P=3
+
+Tiempo de ejecucion: 1.471000 milisegundos para N=1000 P=4
+
+Tiempo de ejecucion: 0.945000 milisegundos para N=2000 P=2
+
+Tiempo de ejecucion: 1.233000 milisegundos para N=2000 P=3
+
+Tiempo de ejecucion: 1.829000 milisegundos para N=2000 P=4
