@@ -2,42 +2,36 @@
 #include <stdlib.h>
 #include <time.h>
 #include <pthread.h>
+#include <sys/time.h> 
 
-// #include <stdio.h>
-// #include <stdlib.h>
-// #include <time.h>
-#include <sys/types.h>
-#include <sys/wait.h>
-#include <unistd.h>
-#include <sys/mman.h>
-
-#define MAX_SIZE 3500
-
-typedef struct {
+// Estructura para pasar múltiples argumentos a la función de hilo
+struct ThreadArgs {
+    int **A;
+    int **B;
+    int **result;
     int startRow;
     int endRow;
     int N;
-    int (*matrixA)[MAX_SIZE];
-    int (*matrixB)[MAX_SIZE];
-    int (*result)[MAX_SIZE];
-} ThreadArgs;
+};
 
+// Función de multiplicación de matrices para cada hilo
 void *multiplyMatrices(void *args) {
-    ThreadArgs *targs = (ThreadArgs *)args;
+    struct ThreadArgs *threadArgs = (struct ThreadArgs *)args;
 
-    for (int i = targs->startRow; i < targs->endRow; ++i) {
-        for (int j = 0; j < targs->N; ++j) {
-            targs->result[i][j] = 0;
-            for (int k = 0; k < targs->N; ++k) {
-                targs->result[i][j] += targs->matrixA[i][k] * targs->matrixB[k][j];
+    for (int i = threadArgs->startRow; i < threadArgs->endRow; ++i) {
+        for (int j = 0; j < threadArgs->N; ++j) {
+            threadArgs->result[i][j] = 0;
+            for (int k = 0; k < threadArgs->N; ++k) {
+                threadArgs->result[i][j] += threadArgs->A[i][k] * threadArgs->B[k][j];
             }
         }
     }
 
-    pthread_exit(NULL);
+    return NULL;
 }
 
-void printMatrix(int (*matrix)[MAX_SIZE], int N) {
+// Función para imprimir una matriz
+void printMatrix(int **matrix, int N) {
     for (int i = 0; i < N; ++i) {
         for (int j = 0; j < N; ++j) {
             printf("%d ", matrix[i][j]);
@@ -55,55 +49,83 @@ int main(int argc, char *argv[]) {
     int N = atoi(argv[1]);
     int numThreads = atoi(argv[2]);
 
-    if (N <= 0 || numThreads <= 0 || N > MAX_SIZE) {
-        printf("Invalid input. N and num_threads should be greater than 0 and less than or equal to %d.\n", MAX_SIZE);
+    if (N <= 0 || numThreads <= 0) {
+        printf("Invalid input. N and num_threads should be greater than 0.\n");
         return 1;
     }
 
     srand(time(NULL));
 
-    // Allocate memory for matrices
-    int (*matrixA)[MAX_SIZE] = malloc(N * sizeof(*matrixA));
-    int (*matrixB)[MAX_SIZE] = malloc(N * sizeof(*matrixB));
-    int (*result)[MAX_SIZE] = malloc(N * sizeof(*result));
+    // Asignación dinámica de memoria para matrices
+    int **matrixA, **matrixB, **result;
+    matrixA = (int **)malloc(N * sizeof(int *));
+    matrixB = (int **)malloc(N * sizeof(int *));
+    result = (int **)malloc(N * sizeof(int *));
+    for (int i = 0; i < N; ++i) {
+        matrixA[i] = (int *)malloc(N * sizeof(int));
+        matrixB[i] = (int *)malloc(N * sizeof(int));
+        result[i] = (int *)malloc(N * sizeof(int));
+    }
 
-    // Fill matrices A and B with random numbers
+    // Inicialización de matrices A y B con números aleatorios entre 1 y 9
     for (int i = 0; i < N; ++i) {
         for (int j = 0; j < N; ++j) {
-            matrixA[i][j] = rand() % 9 + 1;  // Random number between 1 and 9
-            matrixB[i][j] = rand() % 9 + 1;  // Random number between 1 and 9
+            matrixA[i][j] = rand() % 9 + 1;
+            matrixB[i][j] = rand() % 9 + 1;
         }
     }
 
-    clock_t begin = clock();
+    // Medición del tiempo de inicio
+    struct timeval start, end;
+    gettimeofday(&start, NULL);
 
-
-    // Create threads
+    // Creación de hilos
     pthread_t threads[numThreads];
-    ThreadArgs threadArgs[numThreads];
-    int rowsPerThread = N / numThreads;
+    struct ThreadArgs threadArgs[numThreads];
+
     for (int i = 0; i < numThreads; ++i) {
-        threadArgs[i].startRow = i * rowsPerThread;
-        threadArgs[i].endRow = (i == numThreads - 1) ? N : (i + 1) * rowsPerThread;
-        threadArgs[i].N = N;
-        threadArgs[i].matrixA = matrixA;
-        threadArgs[i].matrixB = matrixB;
+        threadArgs[i].A = matrixA;
+        threadArgs[i].B = matrixB;
         threadArgs[i].result = result;
-        // printf("thread %d started with %d rows\n", i, rowsPerThread); 
-        pthread_create(&threads[i], NULL, multiplyMatrices, &threadArgs[i]);
+        threadArgs[i].startRow = i * (N / numThreads);
+        threadArgs[i].endRow = (i == numThreads - 1) ? N : (i + 1) * (N / numThreads);
+        threadArgs[i].N = N;
+
+        pthread_create(&threads[i], NULL, multiplyMatrices, (void *)&threadArgs[i]);
     }
 
-    // Wait for threads to finish
+    // Espera a que todos los hilos terminen
     for (int i = 0; i < numThreads; ++i) {
         pthread_join(threads[i], NULL);
     }
 
-    clock_t end = clock();
+    gettimeofday(&end, NULL);
 
-    double time_spent = ((double)(end - begin) / CLOCKS_PER_SEC)*1000;
+    // Calcula el tiempo transcurrido
+    double time_spent = ((end.tv_sec - start.tv_sec) * 1000.0 +
+                         (end.tv_usec - start.tv_usec) / 1000.0);
 
+    // Muestra el tiempo transcurrido
     printf("%f;%d;%d\n", time_spent, N, numThreads);
 
+    /*
+    // Muestra las matrices de entrada y el resultado
+    printf("Matrix A:\n");
+    printMatrix(matrixA, N);
+
+    printf("\nMatrix B:\n");
+    printMatrix(matrixB, N);
+
+    printf("\nResultant matrix after multiplication:\n");
+    printMatrix(result, N);
+    */
+
+    // Libera la memoria asignada dinámicamente
+    for (int i = 0; i < N; ++i) {
+        free(matrixA[i]);
+        free(matrixB[i]);
+        free(result[i]);
+    }
     free(matrixA);
     free(matrixB);
     free(result);
