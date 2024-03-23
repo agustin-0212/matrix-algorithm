@@ -4,7 +4,7 @@
 gcc algoritmo.c -o test
 
 # Specify the output file
-output_file="resultado_secuencial.csv"
+output_file="resultado_secuencial_filas.csv"
 
 > $output_file
 
